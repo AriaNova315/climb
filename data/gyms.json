@@ -1,0 +1,1344 @@
+{
+  "_meta": {
+    "version": "0.4",
+    "lastUpdated": "2026-06-19",
+    "total": 53,
+    "colorScheme": {
+      "综合": "purple",
+      "抱石": "green",
+      "难度": "orange"
+    },
+    "note": "coordinates 为百分比，相对于地图容器宽高"
+  },
+  "gyms": [
+    {
+      "id": "gym_001",
+      "name": "香蕉",
+      "mapLabel": "香蕉（上地）",
+      "type": "抱石",
+      "district": "海淀",
+      "status": "open",
+      "coordinates": {
+        "xPct": 32.4,
+        "yPct": 29.93
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_002",
+      "name": "奥攀",
+      "mapLabel": "奥攀（上地）",
+      "type": "综合",
+      "district": "海淀",
+      "status": "open",
+      "coordinates": {
+        "xPct": 40.05,
+        "yPct": 34.01
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_003",
+      "name": "岩时",
+      "mapLabel": "岩时（西三旗）",
+      "type": "综合",
+      "district": "海淀",
+      "status": "open",
+      "coordinates": {
+        "xPct": 43.88,
+        "yPct": 30.87
+      },
+      "address": "海淀区西三旗建材城中路",
+      "phone": "010-12345678",
+      "businessHours": "周一至周五 14:00–22:00\n周末 10:00–22:00",
+      "price": {
+        "ticket": "¥88/次",
+        "coaching": "¥300/h"
+      },
+      "grades": {
+        "boulder": "V0–V9",
+        "lead": "5a–7c+"
+      },
+      "routeSetDifficulty": "正常",
+      "audience": [
+        "初学友好",
+        "进阶",
+        "竞技向"
+      ]
+    },
+    {
+      "id": "gym_004",
+      "name": "青山攀石",
+      "mapLabel": "青山攀石",
+      "type": "综合",
+      "district": "海淀",
+      "status": "open",
+      "coordinates": {
+        "xPct": 43.11,
+        "yPct": 33.25
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_005",
+      "name": "香蕉",
+      "mapLabel": "香蕉（768）",
+      "type": "综合",
+      "district": "海淀",
+      "status": "open",
+      "coordinates": {
+        "xPct": 46.17,
+        "yPct": 39.2
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_006",
+      "name": "华攀攀岩",
+      "mapLabel": "华攀攀岩（地质大学）",
+      "type": "综合",
+      "district": "海淀",
+      "status": "open",
+      "coordinates": {
+        "xPct": 46.77,
+        "yPct": 44.13
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_007",
+      "name": "奥攀",
+      "mapLabel": "奥攀（四季青）",
+      "type": "综合",
+      "district": "海淀",
+      "status": "open",
+      "coordinates": {
+        "xPct": 35.54,
+        "yPct": 52.98
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_008",
+      "name": "问山",
+      "mapLabel": "问山",
+      "type": "综合",
+      "district": "门头沟",
+      "status": "open",
+      "coordinates": {
+        "xPct": 31.29,
+        "yPct": 59.01
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_009",
+      "name": "奥攀",
+      "mapLabel": "奥攀（五棵松）",
+      "type": "综合",
+      "district": "石景山",
+      "status": "open",
+      "coordinates": {
+        "xPct": 35.54,
+        "yPct": 62.41
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_010",
+      "name": "COG",
+      "mapLabel": "COG（首钢）",
+      "type": "综合",
+      "district": "石景山",
+      "status": "open",
+      "coordinates": {
+        "xPct": 14.97,
+        "yPct": 62.24
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_011",
+      "name": "越野",
+      "mapLabel": "越野（腾讯众创空间）",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 45.15,
+        "yPct": 17.01
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_012",
+      "name": "岩时",
+      "mapLabel": "岩时（回龙观）",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 45.15,
+        "yPct": 22.7
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_013",
+      "name": "悦石",
+      "mapLabel": "悦石（华贸天地西区）",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 57.23,
+        "yPct": 28.4
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_014",
+      "name": "越野",
+      "mapLabel": "越野（龙湖）",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 61.56,
+        "yPct": 30.95
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_015",
+      "name": "北顶奥森 2.0",
+      "mapLabel": "北顶奥森 2.0",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 50.09,
+        "yPct": 38.01
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_016",
+      "name": "几何",
+      "mapLabel": "几何",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 53.74,
+        "yPct": 41.41
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_017",
+      "name": "青藤攀岩",
+      "mapLabel": "青藤攀岩",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 62.41,
+        "yPct": 40.9
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_018",
+      "name": "COB",
+      "mapLabel": "COB",
+      "type": "综合",
+      "district": "昌平",
+      "status": "open",
+      "coordinates": {
+        "xPct": 54.08,
+        "yPct": 46.26
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_019",
+      "name": "浩石",
+      "mapLabel": "浩石（顺义）",
+      "type": "综合",
+      "district": "顺义",
+      "status": "open",
+      "coordinates": {
+        "xPct": 80.7,
+        "yPct": 13.95
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_020",
+      "name": "COL",
+      "mapLabel": "COL（来广营）",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 69.73,
+        "yPct": 38.44
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_021",
+      "name": "Camp4",
+      "mapLabel": "Camp4（将台）",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 70.32,
+        "yPct": 45.92
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_022",
+      "name": "Bloc1",
+      "mapLabel": "Bloc1-块攀岩",
+      "type": "抱石",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 64.63,
+        "yPct": 50.09
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_023",
+      "name": "Edge",
+      "mapLabel": "Edge-直攀岩",
+      "type": "抱石",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 65.73,
+        "yPct": 51.79
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_024",
+      "name": "Mellow",
+      "mapLabel": "Mellow",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 73.64,
+        "yPct": 48.81
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_025",
+      "name": "浩石",
+      "mapLabel": "浩石（久隆）",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 74.15,
+        "yPct": 51.36
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_026",
+      "name": "先锋",
+      "mapLabel": "先锋（东坝）",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 83.33,
+        "yPct": 51.79
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_027",
+      "name": "Camp4",
+      "mapLabel": "Camp4（三里屯）",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 64.63,
+        "yPct": 57.4
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_028",
+      "name": "中攀",
+      "mapLabel": "中攀",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 77.72,
+        "yPct": 57.14
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_029",
+      "name": "日坛攀岩",
+      "mapLabel": "日坛攀岩（朝阳门）",
+      "type": "抱石",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 62.84,
+        "yPct": 61.05
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_030",
+      "name": "金点石",
+      "mapLabel": "金点石（日坛）",
+      "type": "难度",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 63.52,
+        "yPct": 64.88
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_031",
+      "name": "岩时",
+      "mapLabel": "岩时（大望路）",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 69.13,
+        "yPct": 69.47
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_032",
+      "name": "我攀",
+      "mapLabel": "我攀",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 74.23,
+        "yPct": 68.37
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_033",
+      "name": "岩时",
+      "mapLabel": "岩时（管庄）",
+      "type": "抱石",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 90.39,
+        "yPct": 63.52
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_034",
+      "name": "大手",
+      "mapLabel": "大手",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 96.51,
+        "yPct": 66.2
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_035",
+      "name": "鼎石",
+      "mapLabel": "鼎石",
+      "type": "综合",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 63.78,
+        "yPct": 77.68
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_036",
+      "name": "趣攀岩",
+      "mapLabel": "趣攀岩（朝阳）",
+      "type": "难度",
+      "district": "朝阳",
+      "status": "open",
+      "coordinates": {
+        "xPct": 78.66,
+        "yPct": 86.48
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_037",
+      "name": "星岩攀石",
+      "mapLabel": "星岩攀石",
+      "type": "抱石",
+      "district": "西城",
+      "status": "open",
+      "coordinates": {
+        "xPct": 56.97,
+        "yPct": 52.0
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_038",
+      "name": "飞猫",
+      "mapLabel": "飞猫（朝阳门）",
+      "type": "综合",
+      "district": "东城",
+      "status": "open",
+      "coordinates": {
+        "xPct": 60.54,
+        "yPct": 60.67
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_039",
+      "name": "一起攀岩",
+      "mapLabel": "一起攀岩",
+      "type": "综合",
+      "district": "东城",
+      "status": "open",
+      "coordinates": {
+        "xPct": 57.14,
+        "yPct": 69.73
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_040",
+      "name": "人人攀岩",
+      "mapLabel": "人人攀岩（丽泽）",
+      "type": "难度",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 36.9,
+        "yPct": 72.28
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_041",
+      "name": "飞猫",
+      "mapLabel": "飞猫（纪家庙）",
+      "type": "抱石",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 42.94,
+        "yPct": 78.83
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_042",
+      "name": "魔王",
+      "mapLabel": "魔王",
+      "type": "综合",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 32.99,
+        "yPct": 80.82
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_043",
+      "name": "黑攀",
+      "mapLabel": "黑攀",
+      "type": "抱石",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 36.9,
+        "yPct": 82.95
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_044",
+      "name": "顽岩",
+      "mapLabel": "顽岩",
+      "type": "难度",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 37.24,
+        "yPct": 85.46
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_045",
+      "name": "奥攀",
+      "mapLabel": "奥攀（世界公园）",
+      "type": "综合",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 33.76,
+        "yPct": 86.99
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_046",
+      "name": "奥攀",
+      "mapLabel": "奥攀（玉泉营）",
+      "type": "综合",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 45.83,
+        "yPct": 79.76
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_047",
+      "name": "奥攀",
+      "mapLabel": "奥攀（角门）",
+      "type": "综合",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 53.15,
+        "yPct": 79.34
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_048",
+      "name": "奥攀",
+      "mapLabel": "奥攀（鸿坤广场）",
+      "type": "综合",
+      "district": "丰台",
+      "status": "open",
+      "coordinates": {
+        "xPct": 43.79,
+        "yPct": 89.97
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_049",
+      "name": "极石",
+      "mapLabel": "极石",
+      "type": "综合",
+      "district": "房山",
+      "status": "open",
+      "coordinates": {
+        "xPct": 22.11,
+        "yPct": 98.3
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_050",
+      "name": "越野",
+      "mapLabel": "越野（房山）",
+      "type": "综合",
+      "district": "房山",
+      "status": "open",
+      "coordinates": {
+        "xPct": 27.38,
+        "yPct": 98.21
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_051",
+      "name": "奥攀",
+      "mapLabel": "奥攀（王府井）",
+      "type": "综合",
+      "district": "大兴",
+      "status": "open",
+      "coordinates": {
+        "xPct": 60.29,
+        "yPct": 83.93
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_052",
+      "name": "此山",
+      "mapLabel": "此山（未开业）",
+      "type": "抱石",
+      "district": "大兴",
+      "status": "coming_soon",
+      "coordinates": {
+        "xPct": 86.31,
+        "yPct": 88.78
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    },
+    {
+      "id": "gym_053",
+      "name": "趣攀岩",
+      "mapLabel": "趣攀岩（通州）",
+      "type": "难度",
+      "district": "通州",
+      "status": "open",
+      "coordinates": {
+        "xPct": 99.06,
+        "yPct": 73.89
+      },
+      "address": "",
+      "phone": "",
+      "businessHours": "",
+      "price": {
+        "ticket": "",
+        "coaching": ""
+      },
+      "grades": {
+        "boulder": "",
+        "lead": ""
+      },
+      "routeSetDifficulty": "",
+      "audience": []
+    }
+  ]
+}
