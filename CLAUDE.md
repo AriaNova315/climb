@@ -170,7 +170,7 @@ node scripts/apply-merge.js
 - **岩馆标记**：`<Marker>` 组件，经纬度定位，彩色圆点 + 文字标签
 - **缩放平移**：`ZoomableGroup`（内置），按钮控制 + 鼠标拖拽/滚轮
 - **初始视图**：中心 `[116.31, 39.96]`（岩馆群重心），zoom=1.7（覆盖全部 58 家场馆）
-- **标签切换**：zoom < 3 显示 `gym.name`（短名），zoom ≥ 3 显示 `gym.mapLabel`（完整名）
+- **标签交互**：始终显示 `gym.name`（短名）；鼠标悬停时在圆点上方显示 `gym.mapLabel`（全称 tooltip）；点击弹出详情弹窗（悬停 tooltip 同时消失）
 - **字号**：`6.5 / Math.sqrt(zoom)` SVG 单位（弱自适应：放大时字体缓慢变大，动画无抖动）
 
 **SVG 层级顺序（从下到上）**：
