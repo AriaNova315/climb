@@ -49,6 +49,7 @@ export default function ClimbMap({ gyms, selectedGym, popupPos, focusRequest, on
   const [center, setCenter] = useState<[number, number]>(INITIAL_CENTER)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [roadsData, setRoadsData] = useState<any>(null)
+  const [hoveredGymId, setHoveredGymId] = useState<string | null>(null)
   const wrapperRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -177,7 +178,7 @@ export default function ClimbMap({ gyms, selectedGym, popupPos, focusRequest, on
             }
           </Geographies>
 
-          {/* 层级 4：岩馆标记点 */}
+          {/* 层级 4：岩馆标记点（始终显示短名） */}
           {gyms.map((gym) => {
             const { lat, lng } = gym.coordinates
             const color = TYPE_COLORS[gym.type] ?? '#6B7280'
@@ -191,6 +192,8 @@ export default function ClimbMap({ gyms, selectedGym, popupPos, focusRequest, on
                 key={gym.id}
                 coordinates={[lng, lat]}
                 onClick={(e: React.MouseEvent) => handleMarkerClick(gym, e)}
+                onMouseEnter={() => setHoveredGymId(gym.id)}
+                onMouseLeave={() => setHoveredGymId(null)}
               >
                 <circle
                   r={(isSelected ? 2.5 : 1.8) / Math.sqrt(zoom)}
@@ -214,11 +217,42 @@ export default function ClimbMap({ gyms, selectedGym, popupPos, focusRequest, on
                     strokeWidth: 2.2 / Math.sqrt(zoom),
                   } as React.CSSProperties}
                 >
-                  {zoom >= 3 ? gym.mapLabel : gym.name}
+                  {gym.name}
                 </text>
               </Marker>
             )
           })}
+
+          {/* 层级 5：悬停全称提示（渲染在最后保证层级最高，选中时不显示） */}
+          {(() => {
+            if (!hoveredGymId || hoveredGymId === selectedGym?.id) return null
+            const gym = gyms.find(g => g.id === hoveredGymId)
+            if (!gym) return null
+            const color = TYPE_COLORS[gym.type] ?? '#6B7280'
+            const labelColor = gym.status === 'coming_soon' ? '#6B7280' : color
+            return (
+              <Marker coordinates={[gym.coordinates.lng, gym.coordinates.lat]}>
+                <text
+                  x={0}
+                  y={-(5 / Math.sqrt(zoom))}
+                  textAnchor="middle"
+                  dominantBaseline="auto"
+                  fill={labelColor}
+                  style={{
+                    fontSize: 8 / Math.sqrt(zoom),
+                    fontWeight: 700,
+                    userSelect: 'none',
+                    paintOrder: 'stroke',
+                    stroke: 'rgba(255,255,255,0.97)',
+                    strokeWidth: 3 / Math.sqrt(zoom),
+                    pointerEvents: 'none',
+                  } as React.CSSProperties}
+                >
+                  {gym.mapLabel}
+                </text>
+              </Marker>
+            )
+          })()}
         </ZoomableGroup>
       </ComposableMap>
 
