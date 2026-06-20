@@ -22,6 +22,7 @@ const ROUTE_DIFFICULTY_STYLE: Record<string, { bg: string; text: string; label: 
 
 interface Props {
   gym: Gym
+  pos: { xPct: number; yPct: number }
   onClose: () => void
 }
 
@@ -38,11 +39,10 @@ function Divider() {
   return <div className="border-t border-dashed border-gray-200 my-3" />
 }
 
-export default function GymPopup({ gym, onClose }: Props) {
+export default function GymPopup({ gym, onClose, pos }: Props) {
   const color = TYPE_COLORS[gym.type] ?? '#6B7280'
   const isComingSoon = gym.status === 'coming_soon'
-  const xPct = gym.coordinates.xPct ?? 50
-  const yPct = gym.coordinates.yPct ?? 50
+  const { xPct, yPct } = pos
 
   // 四向翻转
   const flipX = xPct > 55

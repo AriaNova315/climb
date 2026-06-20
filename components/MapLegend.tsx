@@ -7,7 +7,7 @@ export default function MapLegend() {
   ]
 
   return (
-    <div className="absolute top-4 left-4 z-20 bg-white/90 backdrop-blur-sm rounded-xl shadow-md px-4 py-3 pointer-events-none">
+    <div className="fixed top-16 left-4 z-20 bg-white/90 backdrop-blur-sm rounded-xl shadow-md px-4 py-3 pointer-events-none">
       <p className="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wide">图例 Key</p>
       <div className="space-y-1.5">
         {items.map(({ color, label }) => (

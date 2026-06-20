@@ -3,8 +3,9 @@ export type GymStatus = 'open' | 'coming_soon'
 export type RouteSetDifficulty = '软' | '正常' | '硬' | ''
 
 export interface GymCoordinates {
-  xPct: number | null
-  yPct: number | null
+  lat: number
+  lng: number
+  approx?: boolean
 }
 
 export interface GymPrice {
